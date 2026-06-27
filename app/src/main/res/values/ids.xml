@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recyclerComunicados" type="id" />
+    <item name="btnVoltar" type="id" />
+    <item name="toolbarComunicados" type="id" />
+    <item name="txtNomeLancamento" type="id" />
+    <item name="txtValorLancamento" type="id" />
+    <item name="txtDataLancamento" type="id" />
+</resources>
