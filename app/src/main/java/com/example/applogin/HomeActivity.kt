@@ -31,6 +31,18 @@ class HomeActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btnMural).setOnClickListener {
             startActivity(Intent(this, ComunicadosActivity::class.java))
         }
+        findViewById<Button>(R.id.btnPrestação_de_Contas).setOnClickListener {
+            startActivity(Intent(this, PrestacaoContasActivity::class.java))
+        }
+        findViewById<Button>(R.id.btnPrestação_de_Contas).setOnClickListener {
+            startActivity(Intent(this, PrestacaoContasActivity::class.java))
+        }
+        findViewById<Button>(R.id.btnMudança).setOnClickListener {
+            startActivity(Intent(this, MudancaActivity::class.java))
+        }
+        findViewById<Button>(R.id.btnContato_Portaria).setOnClickListener {
+            startActivity(Intent(this, ContatosActivity::class.java))
+        }
 
     }
 }
