@@ -17,7 +17,6 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        app:navigationIcon="@drawable/ic_arrow_back_24"
         app:title="Contatos"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -100,7 +99,7 @@
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@drawable/ic_email_24"
+                    android:src="@drawable/ic_email"
                     android:layout_marginEnd="12dp"
                     app:tint="#555555" />
 
@@ -108,7 +107,7 @@
                     android:id="@+id/tvEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="portaria@example.com"
+                    android:text="portaria@gmail.com"
                     android:textSize="14sp"
                     android:textColor="#333333" />
 
@@ -129,7 +128,7 @@
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@drawable/ic_phone_24"
+                    android:src="@drawable/ic_phone"
                     android:layout_marginEnd="12dp"
                     app:tint="#555555" />
 
@@ -157,7 +156,7 @@
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@drawable/ic_dialpad_24"
+                    android:src="@drawable/ic_dialpad"
                     android:layout_marginEnd="12dp"
                     app:tint="#555555" />
 
